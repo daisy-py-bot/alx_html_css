@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+header {
+    background-color: rgb(46, 140, 143);
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+table {
+    background-color: bisque;
+}
+
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgb(105, 139, 140);
+}
