@@ -1,0 +1,281 @@
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('source-sans-pro/SourceSansPro-ExtraLight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'Source Sans Pro';
+}
+
+header {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bg-container {
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    color: #f7f2f2;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    width: 1440px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: #f7f2f2; /* Sets the text color */
+    font-size: 1em; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.s1 h1 {
+    color: #f7f2f2;
+    text-align: center;
+    font-size: 120px;
+    font-family: source 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.s1 h2{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 70px;
+    color: #f7f2f2;
+}
+.highlight{
+    color: blueviolet;
+}
+.centered-content{
+    justify-content: center;
+}
+
+.spans-container{
+    text-align: center;
+    justify-content:center ;
+    gap: 20px;
+    display: flex;
+    color: #f7f2f2;
+}
+
+.s1-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px ;
+    
+}
+.s1-btn button{
+    background-color: rgb(194, 134, 249);
+    border-radius: 10px;
+    height: 44px;
+    width: 162px;
+}
+
+.tutors{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+    padding-bottom: 50px;
+    justify-content: space-around; /* Optional: evenly distributes items with space around them */
+    margin-bottom: 0%;
+}
+
+.tutors img{
+    border-radius: 50%;
+}
+
+.s1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Qutes */
+
+.s2{
+    display: flex;
+    background-color: rgb(169, 111, 223);
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+.s2 img{
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.q-content {
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align:start;
+    font-size: 22px;
+}
+.q-content blockquote {
+    font-style: italic;
+    margin: 0; /* Remove default margin */
+}
+.q-content h3, .q-content p {
+    margin: 0; /* Remove default margins for consistency */
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+
+/* Videos */
+.s3 {
+    align-items: center;
+    width: 1220px;
+    height: 450px;
+    padding-left: 60px;
+}
+.s3 span{
+    color: rgb(173, 110, 232);
+}
+.s3 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.tutorials{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.tutorials h4{
+    font-family: "Source Sans Pro Light";
+}
+
+.rater{
+    display: flex;
+    justify-content: left;
+}
+.rater img{
+    height: 30px;
+}
+.rater h4{
+    font-size: 14px;
+    margin: 0px;
+    color: rgb(162, 106, 215);
+    padding-top: 5px;
+
+    
+}
+.rating{
+    display: flex;
+    color: blueviolet;
+    
+    align-items: center;
+}
+.rating div{
+    display: flex;
+    margin-right: 2px;
+}
+.rating p{
+    margin-left: auto;
+}
+
+
+/* Membership */
+.s4 {
+    background-color: rgb(14, 14, 56);
+    color: #f7f2f2;
+    width: 1440px;
+}
+.s4 span{
+    color: rgb(146, 96, 192);
+}
+.s4 h2{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.members {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.s4-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.s4-btn button{
+    width: 162px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: rgb(177, 118, 232);
+}
+
+
+/* FQA */
+.qns{
+    padding: 90px;
+    width: 1200px;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    justify-items: center;
+}
+.qn1{
+    padding: 20px;
+    
+}
+.s5 h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+/* Footer */
+.s6{
+    width: 1440px;
+}
+.s6 div{
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.s-cons{
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.s6 p{
+    text-align: center;
+}
+
+
+
