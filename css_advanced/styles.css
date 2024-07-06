@@ -47,7 +47,7 @@ nav ul li{
 nav ul li a {
     text-decoration: none; /* Removes the default underline from links */
     color: #f7f2f2; /* Sets the text color */
-    font-size: 1em; /* Sets the font size */
+    font-size: 12px; /* Sets the font size */
     font-weight: bold; /* Makes the text bold */
 }
 
@@ -257,8 +257,15 @@ nav ul li a {
 
 
 /* Footer */
-.s6{
+footer{
+    background-color: rgb(28, 28, 74);
     width: 1440px;
+    height: 249px;
+}
+.s6{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 90px;
 }
 .s6 div{
     display: flex;
@@ -270,11 +277,22 @@ nav ul li a {
     display: flex;
     margin-right: 20px;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
+.s-cons i {
+    font-size: 24px; /* Change size of the icons */
+    color: white; /* Change color to white */
+}
+
 
 .s6 p{
     text-align: center;
+    margin-top: 70px;
+    color: rgb(154, 158, 161);
+    font-size: 12;
+}
+.s5 img{
+    padding-left: 50px;
 }
 
 
