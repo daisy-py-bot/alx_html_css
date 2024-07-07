@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(source-sans-pro/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: 'Spin Cycle';
+    src: url(Spin-Cycle-OT/spincycle_ot.otf);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    padding-left: 40px;
+}
+.logo p{
+    padding-top: 12px;
+    font-family: 'Spin Cycle';
+    font-size: 16px;
+}
+.logo img{
+   height: 32px;
+}
+
+nav {
+    margin-right: 40px;
+    padding-top: 10px;
+}
+
+nav ul li{
+    font-size: 12px;
+}
+
+nav ul li a {
+    color: white;
+}
+a:hover {
+    color: brown;
+}
+
+/* Mobile styles */
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: gray;
+        padding: 10px 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+    }
+
+    #menu-toggle:checked + .menu-icon + nav {
+        display: flex;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+
+/* The intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 160px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page1{
+    height: 700px;
+    background-image: url(images/headphones_hero_1.jpg);
+    color: #f4f4f4;
+
+}
+
+.intro h1{
+    font-size: 32px;
+    margin-bottom: 2px;
+}
+
+.p1-btn{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    
+}
+.p1-btn button{
+    background-color: rgb(207, 68, 68);
+    height: 44px;
+    width: 162px;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+}
